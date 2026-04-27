@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — CarLink</title>
+<meta name="description" content="CarLink Privacy Policy — how we collect, use, and protect your data.">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.7;
+  }
+  header {
+    background: #C8102E;
+    color: white;
+    padding: 24px 20px;
+    text-align: center;
+  }
+  header a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .lang-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px;
+    background: #f5f7fa;
+    border-bottom: 1px solid #d8dbe0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .lang-btn {
+    background: white;
+    border: 1px solid #d8dbe0;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4a4a4a;
+    transition: all 0.2s;
+  }
+  .lang-btn.active {
+    background: #C8102E;
+    color: white;
+    border-color: #C8102E;
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: #1a1a1a;
+  }
+  .last-updated {
+    color: #8a8a8a;
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  h2 {
+    font-size: 22px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    color: #1a1a1a;
+  }
+  p {
+    margin-bottom: 12px;
+    color: #2a2a2a;
+  }
+  ul {
+    margin: 12px 0 12px 24px;
+    color: #2a2a2a;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  .contact-box {
+    background: #f5f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 24px;
+  }
+  .ar { display: none; direction: rtl; text-align: right; }
+  .ar ul { margin: 12px 24px 12px 0; }
+  body.lang-ar .en { display: none; }
+  body.lang-ar .ar { display: block; }
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: #8a8a8a;
+    font-size: 13px;
+    border-top: 1px solid #d8dbe0;
+    margin-top: 40px;
+  }
+  footer a {
+    color: #C8102E;
+    text-decoration: none;
+    margin: 0 8px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <a href="index.html">CarLink</a>
+</header>
+
+<div class="lang-toggle">
+  <button class="lang-btn active" onclick="setLang('en')">English</button>
+  <button class="lang-btn" onclick="setLang('ar')">العربية</button>
+</div>
+
+<main>
+
+<!-- ENGLISH -->
+<div class="en">
+  <h1>Privacy Policy</h1>
+  <div class="last-updated">Last updated: April 27, 2026</div>
+
+  <p>CarLink ("we," "us," or "our") operates the CarLink mobile application (the "App") and the website at carlink.market. This Privacy Policy explains how we collect, use, and protect information when you use our services in Saudi Arabia and Egypt.</p>
+
+  <h2>1. Information We Collect</h2>
+
+  <p><strong>Account Information:</strong> When you create an account, we collect:</p>
+  <ul>
+    <li>Email address (required for email accounts; optional for Apple Sign-In)</li>
+    <li>Phone number (required for phone-based accounts)</li>
+    <li>Display name and profile photo (optional)</li>
+    <li>Country selection (Saudi Arabia or Egypt)</li>
+    <li>Apple Sign-In identifier (for users who sign in with Apple)</li>
+    <li>Account role (buyer, dealer, or broker)</li>
+  </ul>
+
+  <p><strong>Vehicle Data (My Garage):</strong> If you add vehicles to your garage, we store make, model, year, and your label for the vehicle.</p>
+
+  <p><strong>Listing Data (Dealers/Brokers):</strong> Vehicle listings, spare part listings, photos, descriptions, prices, and optional inspection reports (PDFs or images).</p>
+
+  <p><strong>Cart and Order Data:</strong> Items added to your cart, delivery addresses, and order history (cash on delivery only — we do not collect or store payment card information).</p>
+
+  <p><strong>Communications:</strong> Chat messages between buyers and sellers, comments and reactions on live streams.</p>
+
+  <p><strong>Device and Usage Data:</strong> Push notification token (if you grant permission), device type and OS version, approximate location (only when you grant location permission, used for map features and local listings), and app usage logs for diagnostics.</p>
+
+  <p><strong>Uploaded Files:</strong> Photos of vehicles and spare parts, profile pictures, chat attachments, and inspection reports (test reports). Files are stored on Cloudflare R2 with random filenames.</p>
+
+  <h2>2. How We Use Your Information</h2>
+  <ul>
+    <li>To create and maintain your account</li>
+    <li>To display vehicle and parts listings to you and other users</li>
+    <li>To enable communication between buyers and sellers</li>
+    <li>To send push notifications about chat messages, price drops, saved-search matches, and order updates</li>
+    <li>To match spare parts to your saved vehicles ("Find parts by my car")</li>
+    <li>To process cash-on-delivery orders</li>
+    <li>To prevent fraud, abuse, and unauthorized access</li>
+    <li>To comply with applicable laws in Saudi Arabia and Egypt</li>
+  </ul>
+
+  <h2>3. How We Share Your Information</h2>
+  <p>We do not sell your personal data. We share information only in these limited cases:</p>
+  <ul>
+    <li><strong>Other users:</strong> Public listings (vehicle/parts) are visible to all users. Your name and contact info are shared with users you choose to chat with.</li>
+    <li><strong>Service providers:</strong> Cloud hosting (Coolify, Cloudflare R2 for file storage), push notification services (Apple Push Notification service), and live-streaming infrastructure (LiveKit). These providers process data on our behalf under confidentiality terms.</li>
+    <li><strong>Legal requirements:</strong> If required by law, court order, or to protect our rights and the safety of our users.</li>
+  </ul>
+
+  <h2>4. Apple Sign-In</h2>
+  <p>If you choose Sign in with Apple, Apple may share with us your name and email (or a private relay email if you choose to hide your email). We use Apple's stable identifier (the "sub" claim) to recognize you on subsequent logins. You can manage Sign in with Apple settings on your Apple ID at appleid.apple.com.</p>
+
+  <h2>5. Push Notifications</h2>
+  <p>We send push notifications for chat messages, price changes on listings you're watching, matches on your saved searches, and updates on your orders. You can disable push notifications at any time in your device's Settings → Notifications → CarLink, or in the app's notification settings.</p>
+
+  <h2>6. Location Data</h2>
+  <p>The app may request approximate location to show nearby listings and to display the map view. We do not track your location continuously. You can deny or revoke location permission at any time in your device's Settings.</p>
+
+  <h2>7. User-Generated Content and Moderation</h2>
+  <p>Users can post listings, send chat messages, and comment on live streams. We provide tools to report inappropriate content and block other users. We review reports and may remove content or suspend accounts that violate our Terms of Service.</p>
+
+  <h2>8. Data Retention</h2>
+  <p>We keep your account data for as long as your account is active. When you delete your account, we delete or anonymize your personal data within 30 days, except:</p>
+  <ul>
+    <li>Order history is anonymized (your name and contact info are replaced with "Deleted User") but order records are kept for financial and legal compliance.</li>
+    <li>Vehicle listings posted by deleted dealer accounts are marked inactive but retained for buyers who may have favorited them.</li>
+    <li>Backup copies may persist for up to 90 days before being permanently erased.</li>
+  </ul>
+
+  <h2>9. Your Rights</h2>
+  <p>You can:</p>
+  <ul>
+    <li>Access and update your profile information from the app's Profile screen</li>
+    <li>Delete your account from Profile → Delete Account (this removes all your personal data as described above)</li>
+    <li>Opt out of push notifications at any time</li>
+    <li>Withdraw location permission at any time</li>
+    <li>Contact us to request a copy of your data or to ask questions about your privacy</li>
+  </ul>
+
+  <h2>10. Children</h2>
+  <p>CarLink is not intended for children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us and we will delete it.</p>
+
+  <h2>11. Security</h2>
+  <p>We protect your data using industry-standard measures: encrypted transport (HTTPS), bcrypt-hashed passwords, JWT-based authentication, rate limiting, and access controls. No system is perfectly secure, but we work continuously to protect your information.</p>
+
+  <h2>12. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy. When we do, we will update the "Last updated" date and may notify you in the app. Continued use of CarLink after changes means you accept the updated policy.</p>
+
+  <h2>13. Governing Law</h2>
+  <p>This Privacy Policy is governed by the laws of the Kingdom of Saudi Arabia. For users in Egypt, applicable Egyptian data-protection laws also apply.</p>
+
+  <h2>14. Contact Us</h2>
+  <div class="contact-box">
+    <p><strong>CarLink Support</strong></p>
+    <p>Email: <a href="mailto:info@jorypack.com">info@jorypack.com</a></p>
+    <p>Website: <a href="index.html">carlink.market</a></p>
+  </div>
+</div>
+
+<!-- ARABIC -->
+<div class="ar">
+  <h1>سياسة الخصوصية</h1>
+  <div class="last-updated">آخر تحديث: 27 أبريل 2026</div>
+
+  <p>تشغّل CarLink ("نحن" أو "خدمتنا") تطبيق CarLink للهاتف المحمول ("التطبيق") وموقع carlink.market. توضح سياسة الخصوصية هذه كيف نجمع المعلومات ونستخدمها ونحميها عند استخدامك خدماتنا في المملكة العربية السعودية ومصر.</p>
+
+  <h2>١. المعلومات التي نجمعها</h2>
+
+  <p><strong>معلومات الحساب:</strong> عند إنشاء حساب، نجمع:</p>
+  <ul>
+    <li>عنوان البريد الإلكتروني (مطلوب لحسابات البريد الإلكتروني، اختياري لتسجيل الدخول عبر Apple)</li>
+    <li>رقم الهاتف (مطلوب للحسابات المعتمدة على الهاتف)</li>
+    <li>الاسم المعروض وصورة الملف الشخصي (اختياري)</li>
+    <li>اختيار الدولة (السعودية أو مصر)</li>
+    <li>معرّف Apple Sign-In (للمستخدمين الذين يسجلون الدخول عبر Apple)</li>
+    <li>دور الحساب (مشترٍ أو معرض أو وسيط)</li>
+  </ul>
+
+  <p><strong>بيانات المركبات (جراجي):</strong> إذا أضفت مركبات إلى جراجك، نخزن الماركة والموديل والسنة والاسم الذي تختاره للمركبة.</p>
+
+  <p><strong>بيانات الإعلانات (المعارض/الوسطاء):</strong> إعلانات المركبات وقطع الغيار، الصور، الأوصاف، الأسعار، وتقارير الفحص الاختيارية (PDF أو صور).</p>
+
+  <p><strong>بيانات السلة والطلبات:</strong> العناصر المضافة إلى سلتك، عناوين التوصيل، وسجل الطلبات (الدفع عند الاستلام فقط — لا نجمع أو نخزّن معلومات بطاقات الدفع).</p>
+
+  <p><strong>الاتصالات:</strong> رسائل الدردشة بين المشترين والبائعين، التعليقات والتفاعلات على البث المباشر.</p>
+
+  <p><strong>بيانات الجهاز والاستخدام:</strong> رمز الإشعارات الفورية (في حال منحت الإذن)، نوع الجهاز ونسخة نظام التشغيل، الموقع التقريبي (فقط عند منح إذن الموقع، يُستخدم لميزات الخريطة والإعلانات المحلية)، وسجلات استخدام التطبيق للتشخيص.</p>
+
+  <p><strong>الملفات المرفوعة:</strong> صور المركبات وقطع الغيار، صور الملف الشخصي، مرفقات الدردشة، وتقارير الفحص. تُخزَّن الملفات على Cloudflare R2 بأسماء عشوائية.</p>
+
+  <h2>٢. كيف نستخدم معلوماتك</h2>
+  <ul>
+    <li>إنشاء حسابك والحفاظ عليه</li>
+    <li>عرض إعلانات المركبات وقطع الغيار لك وللمستخدمين الآخرين</li>
+    <li>تمكين التواصل بين المشترين والبائعين</li>
+    <li>إرسال إشعارات حول الرسائل، انخفاض الأسعار، تطابقات البحث المحفوظ، وتحديثات الطلبات</li>
+    <li>مطابقة قطع الغيار مع مركباتك المحفوظة ("اعثر على قطع تناسب سيارتي")</li>
+    <li>معالجة طلبات الدفع عند الاستلام</li>
+    <li>منع الاحتيال وإساءة الاستخدام والوصول غير المصرح به</li>
+    <li>الامتثال للقوانين المعمول بها في السعودية ومصر</li>
+  </ul>
+
+  <h2>٣. كيف نشارك معلوماتك</h2>
+  <p>لا نبيع بياناتك الشخصية. نشارك المعلومات فقط في هذه الحالات المحدودة:</p>
+  <ul>
+    <li><strong>المستخدمون الآخرون:</strong> الإعلانات العامة (المركبات/قطع الغيار) مرئية لجميع المستخدمين. اسمك ومعلومات الاتصال تُشارَك مع المستخدمين الذين تختار الدردشة معهم.</li>
+    <li><strong>مزودو الخدمة:</strong> استضافة سحابية (Coolify، Cloudflare R2 لتخزين الملفات)، خدمات الإشعارات الفورية (Apple Push Notification)، والبنية التحتية للبث المباشر (LiveKit). يعالج هؤلاء البيانات نيابةً عنا وفق شروط سرية.</li>
+    <li><strong>المتطلبات القانونية:</strong> إذا تطلب القانون أو أمر قضائي، أو لحماية حقوقنا وسلامة مستخدمينا.</li>
+  </ul>
+
+  <h2>٤. تسجيل الدخول عبر Apple</h2>
+  <p>إذا اخترت تسجيل الدخول عبر Apple، قد تشارك Apple معنا اسمك وبريدك الإلكتروني (أو بريد إلكتروني خاص للترحيل إذا اخترت إخفاء بريدك). نستخدم معرّف Apple الثابت ("sub") للتعرف عليك في عمليات تسجيل الدخول اللاحقة. يمكنك إدارة إعدادات Sign in with Apple على معرّف Apple الخاص بك من appleid.apple.com.</p>
+
+  <h2>٥. الإشعارات الفورية</h2>
+  <p>نرسل إشعارات للرسائل، تغيرات الأسعار على الإعلانات التي تتابعها، تطابقات بحثك المحفوظ، وتحديثات طلباتك. يمكنك تعطيل الإشعارات في أي وقت من إعدادات الجهاز ← الإشعارات ← CarLink، أو من إعدادات الإشعارات داخل التطبيق.</p>
+
+  <h2>٦. بيانات الموقع</h2>
+  <p>قد يطلب التطبيق الموقع التقريبي لعرض الإعلانات القريبة وعرض الخريطة. لا نتتبع موقعك بشكل مستمر. يمكنك رفض إذن الموقع أو سحبه في أي وقت من إعدادات الجهاز.</p>
+
+  <h2>٧. المحتوى الذي ينشئه المستخدم والإشراف</h2>
+  <p>يمكن للمستخدمين نشر إعلانات، إرسال رسائل، والتعليق على البث المباشر. نوفر أدوات للإبلاغ عن المحتوى غير اللائق وحجب المستخدمين الآخرين. نراجع البلاغات وقد نزيل المحتوى أو نوقف الحسابات التي تنتهك شروط الخدمة.</p>
+
+  <h2>٨. الاحتفاظ بالبيانات</h2>
+  <p>نحتفظ ببيانات حسابك طالما حسابك نشط. عند حذف حسابك، نحذف أو نُجهّل بياناتك الشخصية خلال 30 يوماً، باستثناء:</p>
+  <ul>
+    <li>سجل الطلبات يُجهَّل (يُستبدل اسمك ومعلومات الاتصال بـ "مستخدم محذوف") لكن سجلات الطلبات تُحفظ للامتثال المالي والقانوني.</li>
+    <li>إعلانات المركبات المنشورة من حسابات معارض محذوفة تُحدَّد كغير نشطة لكن تُحفظ للمشترين الذين أضافوها لمفضلاتهم.</li>
+    <li>قد تستمر النسخ الاحتياطية حتى 90 يوماً قبل المحو النهائي.</li>
+  </ul>
+
+  <h2>٩. حقوقك</h2>
+  <p>يمكنك:</p>
+  <ul>
+    <li>الوصول إلى معلومات ملفك الشخصي وتحديثها من شاشة الملف الشخصي في التطبيق</li>
+    <li>حذف حسابك من الملف الشخصي ← حذف الحساب (يزيل بياناتك الشخصية كما هو موضح أعلاه)</li>
+    <li>إيقاف الإشعارات الفورية في أي وقت</li>
+    <li>سحب إذن الموقع في أي وقت</li>
+    <li>التواصل معنا لطلب نسخة من بياناتك أو لطرح أسئلة عن خصوصيتك</li>
+  </ul>
+
+  <h2>١٠. الأطفال</h2>
+  <p>CarLink غير مخصص للأطفال دون 13 سنة. لا نجمع عمداً معلومات شخصية من أطفال دون 13. إذا كنت تعتقد أن طفلاً قدّم لنا معلومات شخصية، يرجى التواصل معنا وسنحذفها.</p>
+
+  <h2>١١. الأمان</h2>
+  <p>نحمي بياناتك بإجراءات قياسية: نقل مشفّر (HTTPS)، كلمات مرور مشفرة بـ bcrypt، مصادقة JWT، حدود الاستخدام، وضوابط الوصول. لا يوجد نظام آمن بشكل مثالي، لكننا نعمل باستمرار لحماية معلوماتك.</p>
+
+  <h2>١٢. تغييرات على هذه السياسة</h2>
+  <p>قد نحدّث سياسة الخصوصية. عند ذلك سنحدّث تاريخ "آخر تحديث" وقد نُعلمك في التطبيق. الاستخدام المستمر لـ CarLink بعد التغييرات يعني قبولك للسياسة المحدّثة.</p>
+
+  <h2>١٣. القانون الحاكم</h2>
+  <p>تخضع سياسة الخصوصية هذه لقوانين المملكة العربية السعودية. للمستخدمين في مصر، تنطبق أيضاً قوانين حماية البيانات المصرية المعمول بها.</p>
+
+  <h2>١٤. تواصل معنا</h2>
+  <div class="contact-box">
+    <p><strong>دعم CarLink</strong></p>
+    <p>البريد الإلكتروني: <a href="mailto:info@jorypack.com">info@jorypack.com</a></p>
+    <p>الموقع: <a href="index.html">carlink.market</a></p>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a>
+  <div style="margin-top: 12px;">© 2026 CarLink</div>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.body.classList.remove('lang-en', 'lang-ar');
+    document.body.classList.add('lang-' + lang);
+    document.documentElement.lang = lang;
+    document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    window.scrollTo(0, 0);
+  }
+</script>
+</body>
+</html>
