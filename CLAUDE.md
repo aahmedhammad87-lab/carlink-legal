@@ -62,13 +62,30 @@ The repo name "carlink-legal" is misleading — it's also the marketing landing 
 - Privacy + Terms are linked from the iOS App Store listing — breaking these pages can affect App Store compliance
 - The bilingual (en/ar) toggle must work — Saudi users default to Arabic
 
-### Workflow Rules
-- Push directly to `main` — no PR workflow
+### Workflow Rules (UPDATED - October 2026)
+
+**CRITICAL: Local-first development. No automatic deployments.**
+
+1. All work happens on `local-dev` branch by default. Never work directly on `main`.
+2. All testing happens on `localhost`. Never test against production.
+3. Commits are allowed on `local-dev` without asking. Push to `local-dev` is allowed without asking.
+4. **NEVER push to `main` without explicit user instruction.** Phrases that authorize a push to main:
+   - "push to main"
+   - "deploy this"
+   - "ship it"
+   - "release to production"
+   Do NOT interpret words like "fix", "do it now", "ok", or "go ahead" as authorization to push to main.
+5. **NEVER trigger production deployment as part of any other task.** If user asks to "fix the brand filter", that means edit and test locally only — it does NOT mean push to main or deploy.
+6. When work is complete on local-dev, ask the user explicitly: "Work is complete on local-dev. Should I push to main and deploy to production? [yes/no]"
+7. After any push to main, always verify the deployment with a health check.
+8. Never push to any GitHub org other than `aahmedhammad87-lab`.
+9. Never suggest creating new repos.
+10. When user says "fix" or "do it now" — proceed with the fix on local-dev. This is NOT authorization to deploy.
+
+### Project Conventions
 - Test changes locally first (`python3 -m http.server 8000`)
 - Always verify both EN and AR versions render correctly after changes
 - Privacy.html and terms.html share a duplicated shell — edit them in lockstep
-- Never push to any GitHub org other than `aahmedhammad87-lab`
-- When user says "fix" or "do it now" — proceed immediately
 
 ### Related Repos
 - `carlink-backend` — Node.js API at back.carlink.market
