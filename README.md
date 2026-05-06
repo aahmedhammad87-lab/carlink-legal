@@ -6,9 +6,9 @@ Privacy Policy, Terms of Service, and landing page for [CarLink](https://carlink
 
 After enabling GitHub Pages on this repository, the documents are accessible at:
 
-- Landing page: `https://aahmedhammad27-lab.github.io/carlink-legal/`
-- Privacy Policy: `https://aahmedhammad27-lab.github.io/carlink-legal/privacy.html`
-- Terms of Service: `https://aahmedhammad27-lab.github.io/carlink-legal/terms.html`
+- Landing page: `https://aahmedhammad87-lab.github.io/carlink-legal/`
+- Privacy Policy: `https://aahmedhammad87-lab.github.io/carlink-legal/privacy.html`
+- Terms of Service: `https://aahmedhammad87-lab.github.io/carlink-legal/terms.html`
 
 ## Files
 
